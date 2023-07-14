@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - The Alphabet - q and e
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int number;
