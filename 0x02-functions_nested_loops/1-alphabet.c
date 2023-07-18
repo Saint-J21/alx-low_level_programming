@@ -1,13 +1,14 @@
 #include "main.h"
 /**
-*main - putchar
-*Return: Always 0.
-*/
-int main(void)
+ * main - check the code for Holberton School students.
+ * Return: Always 0.
+ */
+void print_alphabet(void)
 {
-print_alphabet(int i; for (i = 0; i < 26; i++))
+int letter;
+for (letter = 97; letter <= 122; letter++)
 {
-_putchar('a' + i);
+_putchar((char)letter);
 }
 _putchar('\n');
 }
