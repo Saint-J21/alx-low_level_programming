@@ -12,13 +12,21 @@ for (column = 0; column <= 9; column++)
 int result = row * column;
 if (column == 0)
 {
+_putchar('0');
+}
+else
+{
 _putchar(',');
 _putchar(' ');
 }
 if (result < 10)
+{
 _putchar(' ');
+}
 else
+{
 _putchar('0' + (result / 10));
+}
 _putchar('0' + (result % 10));
 }
 _putchar('\n');
