@@ -3,7 +3,7 @@
 *main - multiples of 10
 *Return: always 0.
 */
-int main()
+int main(void)
 {
 int limit = 1024;
 int sum = 0;
@@ -14,6 +14,6 @@ if (i % 3 == 0 || i % 5 == 0)
 sum += i;
 }
 }
-printf("The sum of multiples of 3 or 5 below 1024 is: %d\n", sum);
+printf("%d\n", sum);
 return (0);
 }
