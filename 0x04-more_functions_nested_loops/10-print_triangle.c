@@ -1,12 +1,11 @@
 #include "main.h"
+
 /**
-* _putchar - putchar.
-*Return: always 0
+* _putchar - prints a character to the standard output.
+* @c: the character to be printed.
+*
+* Return: Always 0.
 */
-void _putchar(char c)
-{
-_putchar(c);
-}
 void print_triangle(int size)
 {
 if (size <= 0)
@@ -26,4 +25,11 @@ _putchar('#');
 }
 _putchar('\n');
 }
+}
+
+int main(void)
+{
+int size = 5;
+print_triangle(size);
+return (0);
 }
