@@ -16,7 +16,7 @@ void print_remaining_days(int month, int day, int year)
 
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
     {
-        days_in_month[2] = 29; // Leap year, February has 29 days
+        days_in_month[2] = 29;
     }
 
     if (month < 1 || month > 12 || day < 1 || day > days_in_month[month])
