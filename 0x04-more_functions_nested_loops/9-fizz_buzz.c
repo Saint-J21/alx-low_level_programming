@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-* main - fizz buzz.
+* main - Entry point of the program
+*
 * Result: always 0
 */
 int main(void)
