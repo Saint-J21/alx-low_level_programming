@@ -9,7 +9,3 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 inline int _putchar(int c)
-{
-	return putchar(c);
-}
-int main (void);
