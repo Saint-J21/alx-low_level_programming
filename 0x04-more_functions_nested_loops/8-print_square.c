@@ -3,8 +3,10 @@
  * print_square - Prints a square
  * @size: The size of the square.
  */
-void print_square(int size) {
-if (size <= 0) {
+void print_square(int size)
+{
+if (size <= 0)
+{
 _putchar('\n');
 }
 else
