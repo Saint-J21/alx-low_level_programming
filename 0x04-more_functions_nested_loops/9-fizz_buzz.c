@@ -1,5 +1,9 @@
 #include <stdio.h>
-int main()
+/**
+* main - fizz buzz.
+* Result: always 0
+*/
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
