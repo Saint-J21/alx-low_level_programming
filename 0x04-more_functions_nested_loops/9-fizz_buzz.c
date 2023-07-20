@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
-* main - Entry point of the program
+* main - prints the numbers from 1 to 100
 *
-* Result: always 0
+* Result: Always 0.
 */
+
 int main(void)
 {
 int i;
