@@ -11,22 +11,22 @@ void print_array(int *a, int n)
 if (a == NULL || n <= 0)
 return;
 
-for (int i = 0; i < n; i++)
+int i;
+for (i = 0; i < n; i++)
 {
-printf("%d", a[i]);
-if (i < n - 1)
-printf(", ");
+	printf("%d", a[i]);
+	if (i < n - 1)
+		printf(", ");
 }
-
 printf("\n");
 }
 
 int main(void)
 {
-int arr[] = {1, 2, 3, 4, 5};
-int n = sizeof(arr) / sizeof(arr[0]);
+	int arr[] = {1, 2, 3, 4, 5};
+	int n = sizeof(arr) / sizeof(arr[0]);
 
-print_array(arr, n); // Output: 1, 2, 3, 4, 5
+	print_array(arr, n);
 
-return (0);
+	return (0);
 }
