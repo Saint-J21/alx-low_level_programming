@@ -8,7 +8,7 @@
  */
 void print_array(int *a, int n)
 {
-
+int i;
 if (a == NULL || n <= 0)
 return;
 
