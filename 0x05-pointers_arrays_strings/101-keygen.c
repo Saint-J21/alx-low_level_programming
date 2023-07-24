@@ -17,7 +17,9 @@ char password[PASSWORD_LENGTH + 1];
 
 srand(time(NULL));
 
-for (int i = 0; i < PASSWORD_LENGTH; i++)
+int i;
+
+for (i = 0; i < PASSWORD_LENGTH; i++)
 {
 password[i] = generate_random_char();
 }
