@@ -43,5 +43,5 @@ while (str[start_index] != '\0')
 	_putchar(str[start_index]);
 	start_index++;
 }
-	_putchar('\n')
+	_putchar('\n');
 }
