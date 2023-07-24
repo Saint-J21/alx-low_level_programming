@@ -8,15 +8,17 @@
 void puts2(char *str)
 {
 	int i = 0;
+	int length = 0;
+	
+	while (str[length] != '\0')
+        length++;
 
-	while (str[i] != '\0')
-	{
-		if (str[i] >= 32 && str[i] <= 126)
-			_putchar(str[i]);
-		i += 2;
+    while (i < length)
+    {
+        if (i % 2 == 0)
+            _putchar(str[i]);
+        i++;
+    }
 
-		if (str[i] == '\0')
-			break;
-	}
-	_putchar('\n');
+    _putchar('\n');
 }
