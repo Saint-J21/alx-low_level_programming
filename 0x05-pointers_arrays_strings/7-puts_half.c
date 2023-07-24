@@ -35,7 +35,7 @@ if (length % 2 == 0)
 }
 else
 {
-	start_index = (length - 1) / 2;
+	start_index = (length + 1) / 2;
 }
 
 while (str[start_index] != '\0')
