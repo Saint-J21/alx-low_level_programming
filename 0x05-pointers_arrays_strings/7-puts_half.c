@@ -45,3 +45,17 @@ while (str[start_index] != '\0')
 }
 	_putchar('\n');
 }
+
+int main(void)
+{
+	char str1[] = "Holberton!";
+	puts_half(str1);
+
+	char str2[] = "";
+	puts_half(str2);
+
+	char str3[] = "Lorem ipsum";
+	puts_half(str3);
+
+	return (0);
+}
