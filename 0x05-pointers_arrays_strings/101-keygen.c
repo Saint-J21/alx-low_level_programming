@@ -14,10 +14,9 @@ return (charset[index]);
 int main(void)
 {
 char password[PASSWORD_LENGTH + 1];
+int i;
 
 srand(time(NULL));
-
-int i;
 
 for (i = 0; i < PASSWORD_LENGTH; i++)
 {
