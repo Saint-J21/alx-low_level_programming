@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** _strcpy - copies a string
+/** _strncpy - copies a string
  *
  * @dest: the destination
  * @src: the destination buffer
@@ -12,7 +12,7 @@
  * Return: a pointer to the resulting string @dest
  */
 
-char *_strcpy(char *dest, const char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
