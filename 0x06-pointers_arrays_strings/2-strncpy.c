@@ -1,12 +1,13 @@
 #include "main.h"
 
-/** _strncpy - copies a string
+/**
+ * _strncpy - copies a string
  *
  * @dest: the destination
  * @src: the destination buffer
- * @n: The maximum number if characters to copy
+ * @n: the maximum number if characters to copy
  *
- * this fucntion copies at most @n character from the @src string to the 
+ * this function copies at most @n character from the @src string to the
  * @dest buffer.
  *
  * Return: a pointer to the resulting string @dest
