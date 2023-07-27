@@ -37,7 +37,7 @@ void print_buffer(char *b, int size)
 
 		for (j = 0; j < 10; j++)
 		{
-			if (i + j <size)
+			if (i + j < size)
 			{
 				if (isprint(*(c + i + j)))
 					printf("%c", *(c + i + j));
