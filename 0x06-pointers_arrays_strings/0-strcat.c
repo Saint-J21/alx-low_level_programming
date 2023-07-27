@@ -9,9 +9,9 @@
  * This function appends the @src string to the @dest string
  *
  * Return: a pointer to the resulting string @dest.
- * */
+ */
 
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *dest_ptr = dest;
 
@@ -20,7 +20,7 @@ char *_strcat(char *dest, const char *src)
 		dest_ptr++;
 	}
 
-	while (*srec != '\0')
+	while (*src != '\0')
 	{
 		*dest_ptr = *src;
 		dest_ptr++;
