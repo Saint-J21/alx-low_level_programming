@@ -28,7 +28,7 @@ int find_sqrt(int n, int start, int end)
 }
 
 /**
- * _sqrt_recursion - returns 
+ * _sqrt_recursion - returns
  *
  * @n: the number to be calculated.
  *
