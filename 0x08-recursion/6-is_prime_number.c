@@ -21,7 +21,7 @@ int is_prime_recursive(int n, int divisor)
 
 /**
  * is_prime_number - checks for primes
- * 
+ *
  * @n: the number
  *
  * Description:
