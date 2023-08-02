@@ -10,7 +10,7 @@
  * this function recursively calculates the value of 'x' raised to the power
  * of 'y'.
  *
- * Return: the value of the 'x' raise to the power of 'y', or -1 in case of an error.
+ * Return: the value 'x' raise to the power of 'y'.
  */
 
 int _pow_recursion(int x, int y)
