@@ -8,4 +8,5 @@ void _puts(char *s)
 		write(1, s, 1);
 		s++;
 	}
+exit(EXIT_SUCCESS);
 }
