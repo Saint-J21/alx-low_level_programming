@@ -16,5 +16,5 @@ for (i = 1; i < argc; i++)
 n = atoi (argv[i]) * n;
 }
 printf("%d\n", n);
-return (0);
+exit(EXIT_SUCCESS);
 }
