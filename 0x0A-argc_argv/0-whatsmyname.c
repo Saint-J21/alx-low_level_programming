@@ -1,11 +1,10 @@
-#include <iostream>
-#include <string>
+#include <stdio.h>
 
 int main(int argc, char* argv[])
 {
-	std::string program_name = argv[0];
+	char* program_name = argv[0];
 
-	std::cout << "Program name: " << program_name << std::endl;
+	printf("Program name: %s\n", program_name);
 
 	return (0);
 }
