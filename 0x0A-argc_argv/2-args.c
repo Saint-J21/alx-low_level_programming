@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - prints
+ * @argc: number
+ * @argv: array
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(int argc, char *argv[])
 {
 	int i;
