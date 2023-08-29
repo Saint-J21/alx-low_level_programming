@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "lists.h"
-#include <stddef.h>
 
 /**
  * print_listint - prints all the elements of a linkedint list
