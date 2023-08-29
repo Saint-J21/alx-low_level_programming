@@ -4,7 +4,10 @@
  * sum_listint - returns the sum of all data in list.
  * @head: pointer to the head.
  *
- * Returns: the sum of all data, or 0
+ * Description: This function calculates and returns the sum of all the integer
+ * values stored in the list.
+ *
+ * Returns: the sum of all data, or 0 if the list is empty.
  */
 
 int sum_listint(listint_t *head)
